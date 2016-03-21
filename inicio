@@ -17,6 +17,7 @@
 body{
 	background: #e6f7ff;
 	font-family: Verdana;
+	margin: 10px 0px 0px 0px;
 }
 h1{
 	color: #333333;
@@ -43,6 +44,19 @@ h1{
 	height: 35px;
 	border: 1px;
 }
+
+footer{
+	margin-bottom: 0%;
+	margin-top: 100px;
+	width: 100%;
+	height: 153px;
+	background-color: #cce6ff;
+}
+footer p {
+	margin-bottom: 0px;
+	padding-top: 50px;
+	text-align: center;
+}
 </style>
 </head>
 
@@ -61,6 +75,9 @@ h1{
 				<input id="submit" type="submit" name="olvidoClave" value="Olvide la clave" style="border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; margin-top: 1px;"></input>
 		</form>
 	</div>
-		
+		<footer>
+			<p>Rodrigo Baldini | 2016</p>
+
+		</footer>
 </body>
 </html>
