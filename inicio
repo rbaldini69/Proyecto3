@@ -6,7 +6,7 @@
 	<style type="text/css">
 #caja
 {
-	background: #66b3ff;
+	background: #cce6ff;
 	width: 400px;
 	height: 300px;
 	border: 10px;
@@ -28,10 +28,20 @@ h1{
 	width: 80%;
 	height: 35px;
 	border: 1px;
-	color: gray;
-	background-color: white;
-	border
+	color: black;
+	background-color: #66b5ff;
+}
+#submit:hover{
 
+	cursor: pointer;
+	background-color: #339cff;
+	color: black;
+}
+#text{
+	margin-left: 10%;
+	width: 80%;
+	height: 35px;
+	border: 1px;
 }
 </style>
 </head>
@@ -44,11 +54,11 @@ h1{
 			<h1>Login</h1>
 				<input id="submit" type="submit" name="aceptar" value="Crear nueva cuenta" style="border-radius: 5px;"></input> </br></br>
 
-				<input id="text" type="text" name="nombreUsuario" placeholder="Nombre de usuario"></input></br></br>
-				<input id="text" type="password" name="pass" placeholder="Contraseña"></input> </br></br>
+				<input id="text" type="text" name="nombreUsuario" placeholder="Nombre de usuario" style="border-top-right-radius: 5px; border-top-left-radius: 5px;"></input>
+				<input id="text" type="password" name="pass" placeholder="Contraseña"style="border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; margin-top: 1px;"></input> </br></br>
 				
 				<input id="submit" type="submit" name="aceptar" value="Ingresar" style="border-top-right-radius: 5px; border-top-left-radius: 5px;"></input>
-				<input id="submit" type="submit" name="olvidoClave" value="Olvide la clave" style="border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; "></input>
+				<input id="submit" type="submit" name="olvidoClave" value="Olvide la clave" style="border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; margin-top: 1px;"></input>
 		</form>
 	</div>
 		
