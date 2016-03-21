@@ -8,7 +8,7 @@
 {
 	background: #cce6ff;
 	width: 400px;
-	height: 300px;
+	height: 340px;
 	border: 10px;
 	border-top: 6px;
 	margin: 0 auto 0 auto;
@@ -22,6 +22,8 @@ body{
 h1{
 	color: #333333;
 	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 #submit{
@@ -49,7 +51,7 @@ footer{
 	margin-bottom: 0%;
 	margin-top: 100px;
 	width: 100%;
-	height: 153px;
+	height: 130px;
 	background-color: #cce6ff;
 }
 footer p {
@@ -62,10 +64,10 @@ footer p {
 
 
 <body>
-<img src="http://img.imagenescool.com/ic/bienvenidos/bienvenidos_002.jpg" alt="bienvenido" style="margin-left: 27%">
+<img src="http://img.imagenescool.com/ic/bienvenidos/bienvenidos_002.jpg" alt="bienvenido" style="margin-left: 28%">
 	<div  id="caja">
 		<form>
-			<h1>Login</h1>
+			<h1>Ingresar</h1>
 				<input id="submit" type="submit" name="aceptar" value="Crear nueva cuenta" style="border-radius: 5px;"></input> </br></br>
 
 				<input id="text" type="text" name="nombreUsuario" placeholder="Nombre de usuario" style="border-top-right-radius: 5px; border-top-left-radius: 5px;"></input>
