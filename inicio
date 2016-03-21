@@ -6,53 +6,49 @@
 	<style type="text/css">
 #caja
 {
-	background: #E0ECF8;
-	width: 250px;
-	height: 250px;
+	background: #66b3ff;
+	width: 400px;
+	height: 300px;
 	border: 10px;
 	border-top: 6px;
 	margin: 0 auto 0 auto;
-	margin-top: 25%;
+	margin-top: 2%;
 }
 body{
-	background: #EFFBEF;
+	background: #e6f7ff;
+	font-family: Verdana;
 }
-h1,h2{
-	font-family: arial;
-	color:0080ff;
-}
-Input[type=submit]
-{
-
-border: 2px;
-height: 35px;
-border-color: red;
-
+h1{
+	color: #333333;
+	text-align: center;
 }
 
-input{
-	margin-left: 40px;
-	width: 65%;
-	border-radius: 3px;
+#submit{
+	margin-left: 10%;
+	width: 80%;
+	height: 35px;
+	border: 1px;
+	color: gray;
+	background-color: white;
+	border
 
 }
-
-	</style>
-
-
+</style>
 </head>
 
+
 <body>
+<img src="http://img.imagenescool.com/ic/bienvenidos/bienvenidos_002.jpg" alt="bienvenido" style="margin-left: 27%">
 	<div  id="caja">
 		<form>
 			<h1>Login</h1>
-				<input type="submit" name="aceptar" value="Crear nueva cuenta"></input> </br></br>
+				<input id="submit" type="submit" name="aceptar" value="Crear nueva cuenta" style="border-radius: 5px;"></input> </br></br>
 
-				<input type="text" name="nombreUsuario" placeholder="Nombre de usuario"></input></br></br>
-				<input type="password" name="pass" placeholder="Contraseña"></input> </br></br>
+				<input id="text" type="text" name="nombreUsuario" placeholder="Nombre de usuario"></input></br></br>
+				<input id="text" type="password" name="pass" placeholder="Contraseña"></input> </br></br>
 				
-				<input type="submit" name="aceptar" value="Ingresar"></input>
-				<input type="submit" name="olvidoClave" value="Olvide la clave"></input>
+				<input id="submit" type="submit" name="aceptar" value="Ingresar" style="border-top-right-radius: 5px; border-top-left-radius: 5px;"></input>
+				<input id="submit" type="submit" name="olvidoClave" value="Olvide la clave" style="border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; "></input>
 		</form>
 	</div>
 		
