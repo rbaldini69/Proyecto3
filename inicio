@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Login | Inicio</title>
+	<style type="text/css">
+#caja
+{
+	background: #E0ECF8;
+	width: 250px;
+	height: 250px;
+	border: 10px;
+	border-top: 6px;
+	margin: 0 auto 0 auto;
+	margin-top: 25%;
+}
+body{
+	background: #EFFBEF;
+}
+h1,h2{
+	font-family: arial;
+	color:0080ff;
+}
+Input[type=submit]
+{
+
+border: 2px;
+height: 35px;
+border-color: red;
+
+}
+
+input{
+	margin-left: 40px;
+	width: 65%;
+	border-radius: 3px;
+
+}
+
+	</style>
+
+
+</head>
+
+<body>
+	<div  id="caja">
+		<form>
+			<h1>Login</h1>
+				<input type="submit" name="aceptar" value="Crear nueva cuenta"></input> </br></br>
+
+				<input type="text" name="nombreUsuario" placeholder="Nombre de usuario"></input></br></br>
+				<input type="password" name="pass" placeholder="Contraseña"></input> </br></br>
+				
+				<input type="submit" name="aceptar" value="Ingresar"></input>
+				<input type="submit" name="olvidoClave" value="Olvide la clave"></input>
+		</form>
+	</div>
+		
+</body>
+</html>
